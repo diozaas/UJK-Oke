@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#A59A83">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cafetology Kurintji_"
+        android:fontFamily="casual"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#462D00"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cafe1"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ck"
+        android:layout_below="@+id/cafe1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logock"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="285dp"
+        android:text="Menu cafe"
+        android:textColor="#fff"
+        android:background="@drawable/gambar_tombol"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:id="@+id/MC"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/MC"
+        android:layout_marginTop="10dp"
+        android:text="PESANAN"
+        android:textColor="#fff"
+        android:background="@drawable/gambar_tombol"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:id="@+id/pesanan"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang Para Raja/Ratu di Cafetology Kurintji Silakan TEKAN Tombol Menu Untuk Memesan Makanan"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/pesanan"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:fontFamily="casual"
+        android:textColor="#462D00"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/d_pesanan"
+        app:layout_constraintStart_toStartOf="@+id/MC"
+        app:layout_constraintTop_toBottomOf="@+id/MC" />
+
+
+
+</RelativeLayout>
